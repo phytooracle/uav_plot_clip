@@ -11,7 +11,6 @@ import sys
 import numpy as np
 import rasterio
 import rasterio.mask
-import matplotlib.pyplot as plt
 import geopandas as gpd
 import multiprocessing
 
