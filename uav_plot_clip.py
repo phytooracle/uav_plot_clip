@@ -88,7 +88,7 @@ def process_image(image):
         if not os.path.isdir(out_dir):
             os.makedirs(out_dir)
 
-        out_image, out_transform = rasterio.mask.mask(src, geom, crop=True)
+        out_image, out_transform = rasterio.mask.mask(src, geom, crop=True, nodata=np.nan)
         out_meta = src.meta
 
         out_meta.update({"driver": "GTiff",
