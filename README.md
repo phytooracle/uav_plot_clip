@@ -14,6 +14,5 @@ The script will output a subdirectory for each plot polygon in the GeoJSON. With
     * **Path/s to a TIF image:** 'tif'
     
 * **Required Arguments:**
-    * **Remove Points:** '-g', '--geojson'
-    * **Output directory:** '-c', '--cpu'
-    * **Output filename:** '-f', '--filename'
+    * **GeoJSON:** '-g', '--geojson'
+    * **Central processing unit (CPU):** '-c', '--cpu'
